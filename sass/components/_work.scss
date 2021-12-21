@@ -137,6 +137,7 @@ position: absolute !important;
 .work-pic-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .work-pic-item {
@@ -159,6 +160,8 @@ position: absolute !important;
 }
 
 .work-pic-link {
+  display: block;
+
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
